@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Saya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="img/icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">MyPortofolio</div>
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button id="theme-toggle" aria-label="Toggle theme">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.59-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.59-1.591zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"/>
+                </svg>
+            </button>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="section">
+        <div class="hero-container">
+            <img src="img\profile.jpeg" alt="Profile Photo" class="profile-photo">
+            <h1 class="hero-title">Masrawan</h1>
+            <p class="hero-tagline">
+                 <span class="typing-text"></span>
+                 <span class="cursor">|</span></p>
+            <div class="hero-buttons">
+                <a href="#portfolio" class="btn primary">Lihat Portfolio</a>
+                <a href="#contact" class="btn secondary">Hubungi Saya</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>Tentang Saya</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-text">
+                  <p>Halo! Saya adalah seorang Full-Stack Developer yang saat ini sedang menempuh studi sebagai <strong>mahasiswa di UNISKA</strong>. Saya memiliki passion besar dalam dunia web development, terutama dalam membangun aplikasi yang tidak hanya fungsional, tetapi juga memiliki desain yang bersih dan nyaman digunakan.</p>
+                  <p>Bagi saya, coding bukan sekadar mengetik baris perintah, melainkan cara untuk memecahkan masalah kompleks melalui teknologi. Saya selalu antusias untuk mengeksplorasi tren terbaru dalam industri IT agar solusi yang saya bangun tetap relevan dan inovatif.</p>
+                  <p>Di luar jam kuliah dan kesibukan coding, saya senang berkontribusi pada proyek open-source, mengulik teknologi baru, atau sekadar melepas penat dengan berpetualang di luar ruangan.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&h=300&fit=crop" alt="About Me Image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+<section id="skills" class="section">
+    <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%">
+                            <span class="skill-name">HTML/CSS</span>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%">
+                            <span class="skill-name">Node.js</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-percent">75%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%">
+                            <span class="skill-name">Git</span>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%">
+                            <span class="skill-name">Docker</span>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Portofolio</h2>
+            <div class="portfolio-grid">
+                <div class="project-card">
+                    <img src="img/app.jpg" alt="Project 1">
+                    <h3>E-Commerce Platform</h3>
+                    <p>Platform e-commerce full-stack yang dilengkapi dengan integrasi sistem pembayaran otomatis. (Coming Soon)</p>
+                    <p><strong>Tech:</strong> React, Node.js, MongoDB</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/Task.jpg" alt="Project 2">
+                    <h3>Task Management App</h3>
+                    <p>Aplikasi manajemen tugas kolaboratif dengan pembaruan data secara real-time. (Coming Soon)</p>
+                    <p><strong>Tech:</strong> Vue.js, Firebase, CSS</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="img/web.png" alt="Project 3">
+                    <h3>Portfolio Website</h3>
+                   <p>Website portofolio responsif yang dibangun menggunakan HTML, CSS, dan JavaScript murni.</p>
+                    <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                    <div class="project-buttons">
+                        <a href="#" class="btn small">Live Demo</a>
+                        <a href="#" class="btn small secondary">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    </section>
+
+    <!-- Experience Section -->
+  <section id="experience" class="section">
+    <div class="container">
+        <h2>Riwayat Pendidikan</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>S1 Teknik Informatika</h3>
+                <p>Universitas Islam Kalimantan (UNISKA) | 2024 - Sekarang</p>
+                <p>Sedang menempuh pendidikan tinggi dengan fokus pada pengembangan perangkat lunak dan teknologi informasi.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>SMK (Teknik Komputer dan Jaringan / RPL)</h3>
+                <p> SMK Negeri 1 Banjarbaru | 2021 - 2024</p>
+                <p>Mulai mendalami dunia IT, belajar dasar-dasar pemrograman, jaringan, dan perakitan komputer.</p>
+            </div>
+
+            <div class="timeline-item">
+                <h3>SMP (Sekolah Menengah Pertama)</h3>
+                <p> SMP Negeri 5 Banjarmasin | 2018 - 2021</p>
+                <p>Masa di mana saya mulai tertarik dengan dunia teknologi dan aktif dalam kegiatan sekolah.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Hubungi Saya</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="name">Nama</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Pesan</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Kirim Pesan</button>
+                <div id="form-feedback"></div>
+            </form>
+            <div class="contact-links">
+                <a href="mailto:masrawan@gmail.com">2410010417wawan@gmail.com</a>
+                <div class="social-icons">
+                    <a href="https://github.com/2410010417wawan-bit" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0C5.374 0 0 5.373 0 12 0 17.302 3.438 21.8 8.207 23.387c.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/>
+                        </svg>
+                    </a>
+                  <a href="https://www.instagram.com/masrawan_?igsh=MTVrbzhxM3BiM3hqYg==" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                  <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="currentColor">
+                     <path d="M7.75 2h8.5C19.55 2 22 4.45 22 7.75v8.5C22 19.55 19.55 22 16.25 22h-8.5C4.45 22 2 19.55 2 16.25v-8.5C2 4.45 4.45 2 7.75 2zm0 1.5C5.28 3.5 3.5 5.28 3.5 7.75v8.5c0 2.47 1.78 4.25 4.25 4.25h8.5c2.47 0 4.25-1.78 4.25-4.25v-8.5c0-2.47-1.78-4.25-4.25-4.25h-8.5z"/>
+                     <path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 1.5a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7z"/>
+                   <circle cx="17.5" cy="6.5" r="1"/>
+                         </svg>
+                   </a>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Masrawan. All rights reserved.</p>
+        <p> Indonesia, Kalimantan Selatan</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
